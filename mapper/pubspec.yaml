@@ -1,4 +1,5 @@
 name: dart_json_mapper
+publish_to: none
 version: 2.2.17
 description: >
   This package allows programmers to annotate Dart objects in order to
@@ -8,12 +9,16 @@ environment:
   sdk: '>=2.17.0 <4.0.0'
 dependencies:
   analyzer: ^7.7.0
-  build: ^2.4.1
+  build: ^2.5.4
   build_config: ^1.1.1
   intl: ^0.20.2
   meta: ^1.16.0
   path: ^1.8.3
-  reflectable: ^4.0.15
+  reflectable:
+    git:
+      url: https://github.com/Konfida-Org/reflectable.dart.git
+      ref: master
+      path: reflectable
   collection: ^1.18.0
   pubspec_parse: ^1.3.0
 dev_dependencies:

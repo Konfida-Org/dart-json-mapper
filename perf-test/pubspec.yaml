@@ -19,6 +19,10 @@ dependencies:
   starlink:
 dev_dependencies:
   reflectable:
+    git:
+      url: https://github.com/Konfida-Org/reflectable.dart.git
+      ref: master
+      path: reflectable
   json_serializable:
   built_value_generator:
   lints:
